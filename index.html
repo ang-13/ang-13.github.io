@@ -1,26 +1,98 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Page Title</title>
-</head>
-<body>
-<div class="menu" style="display: flex; gap: 10px; padding: 10px;">
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Event invite</title>
+        <style>
+        body {
+            background-color: powderblue;
+        }
+        .ti {
+            font-style: cursive;
+            text-align: center;
+            color: rgb(24, 26, 99);
+            font-size: 35px;
+        }
+        .wp {
+            color: white;
+            text-align: center;
+            font-style: italic;
+        }
+        div.three {
+  			width:100%;
+ 			overflow:auto;
+		}
+		div.three div {
+ 			width:33%;  
+  			float:left;
+		}
+        
+        .btn-group .button {
+  			background-color: navy; /* Green */
+  			border: none;
+  			color: white;
+  			padding: 15px 32px;
+  			text-align: center;
+  			text-decoration: none;
+  			display: inline-block;
+  			font-size: 16px;
+  			cursor: pointer;
+  			float: left;
+		}
 
-<button onclick="location.href='index.html'" style="padding: 10px 20px; font-size: 16px; cursor: pointer;">Home</button>
+		.btn-group .button:hover {
+  			background-color: black;
+		}
 
-<button onclick="location.href='travel.html'" style="padding: 10px 20px; font-size: 16px; cursor: pointer;">Travel</button>
+		
+        </style>
+    </head>
+    <body>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+      <div class="btn-group" style="display: flex; padding: 10px;">
 
-<button onclick="location.href='recipe.html'" style="padding: 10px 20px; font-size: 16px; cursor: pointer;">Recipe</button>
+<button class = "button" onclick="location.href='home.html'" style="padding: 10px 20px; font-size: 16px; cursor: pointer;">Home</button>
 
-<button onclick="location.href='blog.html'" style="padding: 10px 20px; font-size: 16px; cursor: pointer;">Blog</button>
+<button class = "button" onclick="location.href='travel.html'" style="padding: 10px 20px; font-size: 16px; cursor: pointer;">Travel</button>
+          
+<button class = "button" onclick="location.href='recipe.html'" style="padding: 10px 20px; font-size: 16px; cursor: pointer;">Recipe</button>
 
-<button onclick="location.href='invite.html'" style="padding: 10px 20px; font-size: 16px; cursor: pointer;">Invite</button>
+<button class = "button" onclick="location.href='blog.html'" style="padding: 10px; font-size: 16px; cursor: pointer;">Blog</button>
 
+<button class = "button" onclick="location.href='invite.html'" style="padding: 10px 20px; font-size: 16px; cursor: pointer;">Invite</button>
 
+</div>
+        
+        <h1 class= "ti">Welcome to...</h1>
+        <h2 class = "wp">ang-13 Webpage!</h2>
+        <div class="three">
+
+  <div style="background-color:#b4c4f5 ;">
+    <h2>Travel</h2>
+    <p>This travel page is about going to Manila, Philippines.</p>
+    <p>There are things you can do, things you can see, and what you can travel by.</p>
+  </div>
+  
+  <div style="background-color:#FFC0C7;">
+    <h2>Recipe</h2>
+    <p>This is my recipe book.</p>
+    <p>There are 3 recipes with instructions and tables of your ingridents you need.</p>
+  </div>
+  
+  <div style="background-color:#D9EEE1;">
+    <h2>Blog</h2>
+    <p>This is my blog about seeing my sister's and celebrating my birthday.</p>
+    <p>It talks about what I did, how I got to my sisters, and what we did to celebrate.</p>
+  </div>
+  <div style="background-color:#ceb4f5 ;">
+    <h2>Blog</h2>
+    <p>This is my blog about seeing my sister's and celebrating my birthday.</p>
+    <p>It talks about what I did, how I got to my sisters, and what we did to celebrate.</p>
+  </div>
 
 </div>
 
-<h1>Welcome to my webpage!</h1>
-
-</body>
+    </body>
 </html>
